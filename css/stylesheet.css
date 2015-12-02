@@ -1,0 +1,209 @@
+/* General */
+
+html, body {
+    background-color: black;
+    height: 100%;
+    overflow-x: hidden;
+}
+[class*="col-"]{
+	background-color: black;
+	
+	padding-right: 0;
+	padding-left: 0;
+}
+/* Header */
+
+header {
+    background-color: blue;
+    height: 100px;
+    margin-bottom: 3px;
+}
+
+.titre{
+    padding: 20px;
+}
+
+.img-header {
+    width: 100px;
+    float:left;
+}
+.img-body {
+	width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	
+}
+
+
+
+/* Container */
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+
+
+/* Textes */
+
+h1 {
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+}
+
+p {
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    margin:0;
+	bottom:30px;
+	
+}
+.text{
+	position:absolute;
+    bottom:0px;
+    left:0px;  
+}
+
+
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+/* Vignettes */
+.petit {
+    position: relative;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+
+.moyen {
+    position: relative;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+
+.grand {
+    position: relative;
+    height: 506px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+/* Couleur*/
+.couleur1{
+	background-color: #DADBDB;
+}
+.couleur2{
+	background-color: #E9979F;
+}
+.couleur3{
+	background-color: #BA74E9;
+}
+.couleur4{
+	background-color: #A2F0D1;
+}
+.couleur5{
+	background-color: #49E6EC;
+}
+.couleur6{
+	background-color: #ECEC68;
+}
+/* couleur bandau*/
+.bande_grise{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:40px;
+	background-color:#A5A9A9;
+}
+.bande_verte{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:40px;
+	background-color:#40C6B4;
+}
+.bande_jaune{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:40px;
+	background-color:#D5D047;
+}
+.bande_bleu{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:40px;
+	background-color:#47BED5;
+}
+.bande_violet{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:40px;
+	background-color:#826598;
+}
+.bande_rose{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:40px;
+	background-color:#DB7AAA;
+}
+
+/* fleche*/
+.fleche {
+	display: inline-block;
+    position:absolute;
+	bottom:5px;
+	left:300px;
+	width:100%;
+	height:30px;
+	background: url(../img/next.png);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	
+}
+.fleche2 {
+	display: inline-block;
+    position:absolute;
+	bottom:5px;
+	left:130px;
+	width:100%;
+	height:30px;
+	background: url(../img/next.png);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	
+}
+p:hover {
+	color: black;
+	}
+/* Responsive */
+
+@media (max-width: 995px) {
+    .col-md-4, .col-md-6, .col-md-12, header {
+    }
+}
